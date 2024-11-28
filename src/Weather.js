@@ -68,7 +68,7 @@ export default function Weather() {
   } else {
     const apiKey = "282f8036ef5dat2effb4fc9cbocda23a";
     let city = "Pretoria";
-    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${props.defaultCity}&key=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
 
