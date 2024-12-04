@@ -13,12 +13,17 @@ export default function App() {
           <a
             href="https://github.com/PortiaInTechToo/clima-react-"
             target="_blank"
+            rel="noreferrer"
           >
             {""}
             Github
           </a>
           {""} and is hosted on {""}
-          <a href="https://silver-choux-e22fb1.netlify.app/" target="_blank">
+          <a
+            href="https://silver-choux-e22fb1.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Netlify.
           </a>
         </footer>
