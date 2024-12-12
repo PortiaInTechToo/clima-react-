@@ -52,3 +52,7 @@
   top: -34px;
   line-height: 1;
 }
+
+a {
+  text-decoration: none;
+}
