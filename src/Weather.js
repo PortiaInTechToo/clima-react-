@@ -20,6 +20,7 @@ export default function Weather(props) {
       date: new Date(
         response.data.time ? response.data.time * 1000 : Date.now()
       ),
+      coordinates: response.data.coordinates,
     });
   }
 
